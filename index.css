@@ -1,0 +1,83 @@
+body{
+	background-image: url("https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+  background-repeat: no-repeat;
+  background-size: 100% 160%;
+  bac
+}
+
+
+#container{
+	width: 360px;
+	margin: 100px auto;
+	background: #f7f7f7;
+    box-shadow: 0 0 3px rgba(0,0,0, 0.4);
+}
+.completed{
+	text-decoration: line-through;;
+	color: gray;
+}
+
+h1{
+	background: #2980b9;
+	color: white;
+	margin: 0;
+	padding: 10px 20px;
+	font-size: 24px;
+	font-weight: normal;
+	font-family: 'Love Ya Like A Sister', cursive;
+}
+input{
+	width: 100%;
+	border-width: 0;
+	padding: 13px 13px 13px 20px;
+	font-size: 18px;
+	box-sizing: border-box;
+	background-color: #f3f3f3;
+	color: #2980b9;
+}
+
+input:focus{
+	border: 2px solid #2980b9;
+    outline: none;
+    background: #fff;
+}
+
+ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+}
+li:nth-child(2n){
+	background:#f3f3f3;
+}
+li{
+  background-color: white;
+  height: 40px;
+  line-height: 40px;
+  color: #666;
+}
+span{
+	margin-right: 20px;
+	text-align: center;
+	height: 40px;
+	color: white;
+	width: 0;
+	background: #e74c3c;
+	display: inline-block;
+	transition: 0.2s linear;
+	opacity: 0;
+}
+
+li:hover span{
+	width: 40px;
+	opacity: 1.0;
+}
+.fa-trash-alt{
+	transition: 
+}
+
+.fa-calendar-check{
+	float: right;
+	padding-top: 6px;
+}
